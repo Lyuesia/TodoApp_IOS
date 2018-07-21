@@ -9,17 +9,30 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    
+    var Todos = TodoLogic()
+    
+    
+    @IBOutlet weak var taskInput: UITextField!
+    
+    
+    @IBAction func addTodo(_ sender: UIButton) {
+        if let newTask = taskInput.text {
+            Todos.addTask(of: newTask)
+//            updateView()
+        }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
+    
+    @IBOutlet var todoList: [UITableView]!
+    
+    
+    
+//    func updateView() {
+//        for index in Todos.taskList.indices {
+//            todoList[index] = Todos.taskList[index]
+//        }
+//    }
 }
+
+
 

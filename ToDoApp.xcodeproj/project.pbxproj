@@ -12,6 +12,8 @@
 		6B107CFF20EB5A6100AE6E3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B107CFD20EB5A6100AE6E3C /* Main.storyboard */; };
 		6B107D0120EB5A6200AE6E3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B107D0020EB5A6200AE6E3C /* Assets.xcassets */; };
 		6B107D0420EB5A6200AE6E3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B107D0220EB5A6200AE6E3C /* LaunchScreen.storyboard */; };
+		6B107D0C20ECC7E400AE6E3C /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B107D0B20ECC7E400AE6E3C /* Task.swift */; };
+		6B107D1020ECC94200AE6E3C /* TodoLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B107D0F20ECC94200AE6E3C /* TodoLogic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		6B107D0020EB5A6200AE6E3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B107D0320EB5A6200AE6E3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B107D0520EB5A6200AE6E3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B107D0B20ECC7E400AE6E3C /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		6B107D0F20ECC94200AE6E3C /* TodoLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoLogic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 			children = (
 				6B107CF920EB5A6100AE6E3C /* AppDelegate.swift */,
 				6B107CFB20EB5A6100AE6E3C /* ViewController.swift */,
+				6B107D0F20ECC94200AE6E3C /* TodoLogic.swift */,
 				6B107CFD20EB5A6100AE6E3C /* Main.storyboard */,
+				6B107D0B20ECC7E400AE6E3C /* Task.swift */,
 				6B107D0020EB5A6200AE6E3C /* Assets.xcassets */,
 				6B107D0220EB5A6200AE6E3C /* LaunchScreen.storyboard */,
 				6B107D0520EB5A6200AE6E3C /* Info.plist */,
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B107CFC20EB5A6100AE6E3C /* ViewController.swift in Sources */,
+				6B107D0C20ECC7E400AE6E3C /* Task.swift in Sources */,
+				6B107D1020ECC94200AE6E3C /* TodoLogic.swift in Sources */,
 				6B107CFA20EB5A6100AE6E3C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
